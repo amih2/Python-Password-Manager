@@ -15,5 +15,5 @@ cd Python-Password-Manager
 pip3 install -r requirements.txt --user
 
 # Usage
-Master password is suposed to be a root so the files and keys are protected with superuser privileges.
+
 sudo python3 main.py
