@@ -21,3 +21,7 @@ $ pip3 install -r requirements.txt --user
 ```
 $ sudo python3 main.py
 ```
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
