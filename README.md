@@ -5,3 +5,5 @@ WARNING: This password manager is written as a hobby project, and is NOT intende
 This password manager uses fernet encryption witch uses on AES
 
 Master password is suposed to be superuser(root) 
+
+#
