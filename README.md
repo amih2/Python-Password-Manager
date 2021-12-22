@@ -5,11 +5,11 @@ This password manager is written as a hobby project, and is NOT intended for rea
 CLI based password manager for linux written in python
 
 ## General info
-*This password manager uses fernet encryption witch uses on AES
-*This program is suposed to be run as a root user since database and keys need to be protected against any manipulation other than a master user.
-*There is no option to write your own passwords, all passwords are generated with the help of secrets library.
-*There is also an option to generate usernames with the help of random_username library.
-*Passwords and keys are stored in .json files which are protected with superuser ownership and permissions
+* [This password manager uses fernet encryption witch uses on AES]
+* [This program is suposed to be run as a root user since database and keys need to be protected against any manipulation other than a master user]
+*There is no option to write your own passwords, all passwords are generated with the help of secrets library]
+*There is also an option to generate usernames with the help of random_username library]
+*Passwords and keys are stored in .json files which are protected with superuser ownership and permissions]
 
 ## Installation
 ``` 
