@@ -7,13 +7,13 @@ This password manager uses fernet encryption witch uses on AES
 Master password is suposed to be superuser(root) 
 
 # Installation
-
-git clone https://github.com/amih2/Python-Password-Manager.git
-
-cd Python-Password-Manager
-
-pip3 install -r requirements.txt --user
+``` 
+$ git clone https://github.com/amih2/Python-Password-Manager.git
+$ cd Python-Password-Manager
+$ pip3 install -r requirements.txt --user
+```
 
 # Usage
-
-sudo python3 main.py
+```
+$ sudo python3 main.py
+```
