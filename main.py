@@ -11,11 +11,11 @@ key = 'pass.key'
 choice = menu.menu()
 while choice != 'Q':
   if choice == '1':
-    interface.create(filename, key)
+    menu.create(filename, key)
   if choice == '2':
-    interface.retrieve_data(filename, key)
+    menu.retrieve_data(filename, key)
   if choice == '3':
-    interface.delete(filename, key)
+    menu.delete(filename, key)
   if choice == 'q' or choice == 'Q':
         exit()
   else:
