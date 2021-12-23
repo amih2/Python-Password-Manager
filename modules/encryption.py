@@ -19,9 +19,6 @@ class DataGenerator:
 	def generate_random_string(self, length, alphabet):
 	    return ''.join(secrets.choice(alphabet) for x in range(length))
 
-	def create_passwd(self):
-		return input("Please write your own password: ")
-
 
 class FernetCryptography:
 
