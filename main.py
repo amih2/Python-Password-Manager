@@ -2,13 +2,13 @@ from modules.menu import Menu
 
 
 
-interface = Menu()
-interface.check_for_root()
+menu = Menu()
+menu.check_for_root()
 filename = 'database.json'
 key = 'pass.key'
 
 
-choice = interface.menu()
+choice = menu.menu()
 while choice != 'Q':
   if choice == '1':
     interface.create(filename, key)
@@ -19,6 +19,6 @@ while choice != 'Q':
   if choice == 'q' or choice == 'Q':
         exit()
   else:
-    choice = interface.menu()
+    choice = menu.menu()
 
 exit()
